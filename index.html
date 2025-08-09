@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <style>
+        
+body{
+    background-color:rgb(37, 36, 97)
+}
+
+.contenedor:hover{
+    background-color: rgb(245, 125, 161);
+    
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+.contenedor:hover h1{
+    color: rgb(27, 36, 97);
+ ;
+}
+
+  li{
+    color:rgb(207, 16, 245);
+  }
+  a{
+    color: white;
+  }
+    a:hover{
+background-color: rgb(233, 2, 110);
+    }
+.contenedor{
+
+    background-color: rgb(98, 61, 233);
+    font-family:sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+    margin: 5%;
+}
+
+#barra ul{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15vh;
+}
+#barra li{
+    text-decoration: none;
+}
+#cuerpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding: 4vh;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+#cuerpo img {
+    width: 50%;
+
+}
+.content{
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+}
+
+
+</style>
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1 id="nombrePokemon" class="azul">Nombre Pokemon</h1>
+<nav>
+    <ul>
+        <li><a href="#" data-pokemon="castform">Castform</a></li>
+        <li><a href="#" data-pokemon="trapinch">Trapinch</a></li>
+        <li><a href="#" data-pokemon="quagsire">Quagsire</a></li>
+    </ul>
+</nav>
+</div>
+<div class="content">
+<img id="imagenPokemon" src="">
+
+</div>
+<script src="./actions.js"></script>
+   
+</div>
+
+<div id="cuerpo">
+
+    <p> La forma de Castform cambia con las variaciones del tiempo.
+         Este Pokémon consiguió aprender a usar el gran poder de la naturaleza 
+         para proteger el pequeño cuerpo que tiene. 
+         Castform se vale del poder
+          de la naturaleza para transformarse en el sol y en nubarrones 
+          cargados de lluvia o nieve.</p>
+    
+
+    <p>Si quieres capturar todos los tipos de Castform, ten en cuenta que hay un 
+        total de cuatro formas. Aunque Castform ocupa una sola entrada en la 
+        Pokédex, si lo seleccionas aparecen las distintas formas disponibles,
+         y aquellas que has capturado.</p>
+
+
+
+</body>
+</html>
